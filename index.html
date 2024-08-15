@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Spreadsheet App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Spreadsheet App</h1>
+      <div id="app">
+        <div id="toolbar">
+          <button id="align-left">Align Left</button>
+          <button id="align-center">Align Center</button>
+          <button id="align-right">Align Right</button>
+          <input type="number" id="font-size" placeholder="Font Size" min="10" max="30">
+          <input type="text" id="search" placeholder="Search">
+          <input type="text" id="filter" placeholder="Filter Criteria">
+          <button id="clear-filter">Clear Filter</button>
+          <button id="undo">Undo</button>
+          <button id="redo">Redo</button>
+        </div>
+    
+        
+    
+        <div id="spreadsheet-container"></div>
+        <div id="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="current-page">Page 1</span>
+            <button id="next-page">Next</button>
+          </div>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
